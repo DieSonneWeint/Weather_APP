@@ -1,0 +1,312 @@
+{
+  "openWeather": {
+    "weather": [
+      {
+        "id": 800,
+        "main": "Clear",
+        "description": "clear sky",
+        "icon": "01d"
+      }
+    ],
+    "_base": null,
+    "main": {
+      "temp": 0.61,
+      "feels_like": -4.15,
+      "temp_min": 0.16,
+      "temp_max": 0.61,
+      "pressure": 1021,
+      "humidity": 60,
+      "sea_level": 0,
+      "grnd_level": 0
+    },
+    "wind": {
+      "speed": 5,
+      "deg": 220,
+      "gust": 0
+    },
+    "rain": null,
+    "clouds": {
+      "all": 0
+    },
+    "id": 1496747,
+    "name": "Novosibirsk",
+    "cod": 200
+  },
+  "weatherstack": {
+    "Request": {
+      "type": "City",
+      "query": "Новосибирск, Россия",
+      "language": "en",
+      "unit": "m"
+    },
+    "Location": {
+      "name": "Новосибирск",
+      "country": "Россия",
+      "region": "Novosibirsk",
+      "lat": "55.041",
+      "lon": "82.934",
+      "timezone_id": "Asia/Novosibirsk",
+      "localtime": "2023-03-24 19:28",
+      "localtime_epoch": 1679686080,
+      "utc_offset": "7.0"
+    },
+    "Current": {
+      "observation_time": "12:28 PM",
+      "temperature": 1,
+      "weather_code": 113,
+      "wind_speed": 19,
+      "wind_degree": 220,
+      "wind_dir": "SW",
+      "pressure": 1021,
+      "precip": 0,
+      "humidity": 59,
+      "cloudcover": 0,
+      "feelslike": -4,
+      "uv_index": 2,
+      "visibility": 10
+    },
+    "Forecast": null
+  },
+  "weatherapi": {
+    "location": {
+      "name": "Новосибирск",
+      "region": "Novosibirsk",
+      "country": "Россия",
+      "lat": 55.04,
+      "lon": 82.93,
+      "tz_id": "Asia/Novosibirsk",
+      "localtime_epoch": 1679660926,
+      "localtime": "2023-03-24 19:28"
+    },
+    "current": {
+      "last_updated_epoch": 1679660100,
+      "last_updated": "2023-03-24 19:15",
+      "temp_c": 1
+    }
+  },
+  "visCross": {
+    "queryCost": 1,
+    "latitude": 55.0398,
+    "longitude": 82.9102,
+    "resolvedAddress": "Новосибирск, Сибирский федеральный округ, Россия",
+    "address": "Новосибирск",
+    "timezone": "Asia/Novosibirsk",
+    "tzoffset": 7,
+    "description": "Similar temperatures continuing with no rain expected.",
+    "days": [
+      {
+        "datetime": "2023-03-24",
+        "datetimeEpoch": 1679590800,
+        "tempmax": 2,
+        "tempmin": -5,
+        "temp": -1.9,
+        "feelslikemax": 2,
+        "feelslikemin": -11.2,
+        "feelslike": -6.6,
+        "hours": [
+          {
+            "datetime": "00:00:00",
+            "datetimeEpoch": 1679590800,
+            "temp": -1,
+            "feelslike": -4.8,
+            "humidity": 74.27,
+            "datetimeInstance": "0001-01-01T00:00:00"
+          },
+          {
+            "datetime": "01:00:00",
+            "datetimeEpoch": 1679594400,
+            "temp": 0,
+            "feelslike": -5,
+            "humidity": 69.05,
+            "datetimeInstance": "0001-01-01T00:00:00"
+          },
+          {
+            "datetime": "02:00:00",
+            "datetimeEpoch": 1679598000,
+            "temp": -1,
+            "feelslike": -6.2,
+            "humidity": 86.28,
+            "datetimeInstance": "0001-01-01T00:00:00"
+          },
+          {
+            "datetime": "03:00:00",
+            "datetimeEpoch": 1679601600,
+            "temp": -1,
+            "feelslike": -5.6,
+            "humidity": 86.28,
+            "datetimeInstance": "0001-01-01T00:00:00"
+          },
+          {
+            "datetime": "04:00:00",
+            "datetimeEpoch": 1679605200,
+            "temp": -1,
+            "feelslike": -6.2,
+            "humidity": 86.28,
+            "datetimeInstance": "0001-01-01T00:00:00"
+          },
+          {
+            "datetime": "05:00:00",
+            "datetimeEpoch": 1679608800,
+            "temp": -1,
+            "feelslike": -5.6,
+            "humidity": 86.28,
+            "datetimeInstance": "0001-01-01T00:00:00"
+          },
+          {
+            "datetime": "06:00:00",
+            "datetimeEpoch": 1679612400,
+            "temp": -4,
+            "feelslike": -8.4,
+            "humidity": 92.75,
+            "datetimeInstance": "0001-01-01T00:00:00"
+          },
+          {
+            "datetime": "07:00:00",
+            "datetimeEpoch": 1679616000,
+            "temp": -5,
+            "feelslike": -10.5,
+            "humidity": 92.69,
+            "datetimeInstance": "0001-01-01T00:00:00"
+          },
+          {
+            "datetime": "08:00:00",
+            "datetimeEpoch": 1679619600,
+            "temp": -5,
+            "feelslike": -9.6,
+            "humidity": 100,
+            "datetimeInstance": "0001-01-01T00:00:00"
+          },
+          {
+            "datetime": "09:00:00",
+            "datetimeEpoch": 1679623200,
+            "temp": -4,
+            "feelslike": -9.3,
+            "humidity": 92.75,
+            "datetimeInstance": "0001-01-01T00:00:00"
+          },
+          {
+            "datetime": "10:00:00",
+            "datetimeEpoch": 1679626800,
+            "temp": -4,
+            "feelslike": -9.3,
+            "humidity": 100,
+            "datetimeInstance": "0001-01-01T00:00:00"
+          },
+          {
+            "datetime": "11:00:00",
+            "datetimeEpoch": 1679630400,
+            "temp": -4,
+            "feelslike": -8.4,
+            "humidity": 100,
+            "datetimeInstance": "0001-01-01T00:00:00"
+          },
+          {
+            "datetime": "12:00:00",
+            "datetimeEpoch": 1679634000,
+            "temp": -3,
+            "feelslike": -8,
+            "humidity": 92.8,
+            "datetimeInstance": "0001-01-01T00:00:00"
+          },
+          {
+            "datetime": "13:00:00",
+            "datetimeEpoch": 1679637600,
+            "temp": -2,
+            "feelslike": -6,
+            "humidity": 86.18,
+            "datetimeInstance": "0001-01-01T00:00:00"
+          },
+          {
+            "datetime": "14:00:00",
+            "datetimeEpoch": 1679641200,
+            "temp": 0,
+            "feelslike": -3.6,
+            "humidity": 80.22,
+            "datetimeInstance": "0001-01-01T00:00:00"
+          },
+          {
+            "datetime": "15:00:00",
+            "datetimeEpoch": 1679644800,
+            "temp": 1,
+            "feelslike": -2.4,
+            "humidity": 74.63,
+            "datetimeInstance": "0001-01-01T00:00:00"
+          },
+          {
+            "datetime": "16:00:00",
+            "datetimeEpoch": 1679648400,
+            "temp": 2,
+            "feelslike": 2,
+            "humidity": 64.47,
+            "datetimeInstance": "0001-01-01T00:00:00"
+          },
+          {
+            "datetime": "17:00:00",
+            "datetimeEpoch": 1679652000,
+            "temp": 2,
+            "feelslike": -2.5,
+            "humidity": 59.79,
+            "datetimeInstance": "0001-01-01T00:00:00"
+          },
+          {
+            "datetime": "18:00:00",
+            "datetimeEpoch": 1679655600,
+            "temp": 2,
+            "feelslike": -2.5,
+            "humidity": 55.42,
+            "datetimeInstance": "0001-01-01T00:00:00"
+          },
+          {
+            "datetime": "19:00:00",
+            "datetimeEpoch": 1679659200,
+            "temp": -1.8,
+            "feelslike": -7,
+            "humidity": 91.5,
+            "datetimeInstance": "0001-01-01T00:00:00"
+          },
+          {
+            "datetime": "20:00:00",
+            "datetimeEpoch": 1679662800,
+            "temp": -2.3,
+            "feelslike": -7.5,
+            "humidity": 90.79,
+            "datetimeInstance": "0001-01-01T00:00:00"
+          },
+          {
+            "datetime": "21:00:00",
+            "datetimeEpoch": 1679666400,
+            "temp": -4,
+            "feelslike": -9.3,
+            "humidity": 91.35,
+            "datetimeInstance": "0001-01-01T00:00:00"
+          },
+          {
+            "datetime": "22:00:00",
+            "datetimeEpoch": 1679670000,
+            "temp": -4.8,
+            "feelslike": -10.7,
+            "humidity": 93.41,
+            "datetimeInstance": "0001-01-01T00:00:00"
+          },
+          {
+            "datetime": "23:00:00",
+            "datetimeEpoch": 1679673600,
+            "temp": -4.9,
+            "feelslike": -11.2,
+            "humidity": 93.4,
+            "datetimeInstance": "0001-01-01T00:00:00"
+          }
+        ],
+        "datetimeInstance": "0001-01-01T00:00:00"
+      }
+    ],
+    "alerts": [],
+    "currentConditions": {
+      "datetime": "19:00:00",
+      "datetimeEpoch": 1679659200,
+      "temp": 1,
+      "feelslike": -3.7,
+      "humidity": 59.5
+    }
+  }
+}

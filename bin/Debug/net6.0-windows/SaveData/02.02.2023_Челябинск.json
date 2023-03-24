@@ -1,0 +1,312 @@
+{
+  "openWeather": {
+    "weather": [
+      {
+        "id": 803,
+        "main": "Clouds",
+        "description": "broken clouds",
+        "icon": "04n"
+      }
+    ],
+    "_base": null,
+    "main": {
+      "temp": -1.42,
+      "feels_like": -5.77,
+      "temp_min": -1.42,
+      "temp_max": -1.42,
+      "pressure": 1011,
+      "humidity": 80,
+      "sea_level": 1011,
+      "grnd_level": 995
+    },
+    "wind": {
+      "speed": 3.66,
+      "deg": 200,
+      "gust": 7.78
+    },
+    "rain": null,
+    "clouds": {
+      "all": 76
+    },
+    "id": 709930,
+    "name": "Sad",
+    "cod": 200
+  },
+  "weatherstack": {
+    "Request": {
+      "type": "IATA",
+      "query": "sad, Safford Municipal Airport, United States of America",
+      "language": "en",
+      "unit": "m"
+    },
+    "Location": {
+      "name": "Safford Municipal Airport",
+      "country": "United States of America",
+      "region": "Solomon",
+      "lat": "32.855",
+      "lon": "-109.636",
+      "timezone_id": "America/Phoenix",
+      "localtime": "2023-02-01 15:28",
+      "localtime_epoch": 1675265280,
+      "utc_offset": "-7.0"
+    },
+    "Current": {
+      "observation_time": "10:28 PM",
+      "temperature": 16,
+      "weather_code": 116,
+      "wind_speed": 4,
+      "wind_degree": 327,
+      "wind_dir": "NNW",
+      "pressure": 1016,
+      "precip": 0,
+      "humidity": 23,
+      "cloudcover": 25,
+      "feelslike": 16,
+      "uv_index": 4,
+      "visibility": 16
+    },
+    "Forecast": null
+  },
+  "weatherapi": {
+    "location": {
+      "name": "Safford Municipal Airport",
+      "region": "Solomon",
+      "country": "United States of America",
+      "lat": 32.85,
+      "lon": -109.64,
+      "tz_id": "America/Phoenix",
+      "localtime_epoch": 1675290499,
+      "localtime": "2023-02-01 15:28"
+    },
+    "current": {
+      "last_updated_epoch": 1675289700,
+      "last_updated": "2023-02-01 15:15",
+      "temp_c": 16.1
+    }
+  },
+  "visCross": {
+    "queryCost": 1,
+    "latitude": 55.1631,
+    "longitude": 61.3888,
+    "resolvedAddress": "Челябинск, Уральский федеральный округ, Россия",
+    "address": "Челябинск",
+    "timezone": "Asia/Yekaterinburg",
+    "tzoffset": 5,
+    "description": "Similar temperatures continuing with no rain expected.",
+    "days": [
+      {
+        "datetime": "2023-01-31",
+        "datetimeEpoch": 1675105200,
+        "tempmax": -2,
+        "tempmin": -14,
+        "temp": -7.6,
+        "feelslikemax": -4,
+        "feelslikemin": -15.4,
+        "feelslike": -11.4,
+        "hours": [
+          {
+            "datetime": "00:00:00",
+            "datetimeEpoch": 1675105200,
+            "temp": -10,
+            "feelslike": -14.2,
+            "humidity": 72.53,
+            "datetimeInstance": "0001-01-01T00:00:00"
+          },
+          {
+            "datetime": "01:00:00",
+            "datetimeEpoch": 1675108800,
+            "temp": -11,
+            "feelslike": -15.3,
+            "humidity": 85.17,
+            "datetimeInstance": "0001-01-01T00:00:00"
+          },
+          {
+            "datetime": "02:00:00",
+            "datetimeEpoch": 1675112400,
+            "temp": -12,
+            "feelslike": -12,
+            "humidity": 85.05,
+            "datetimeInstance": "0001-01-01T00:00:00"
+          },
+          {
+            "datetime": "03:00:00",
+            "datetimeEpoch": 1675116000,
+            "temp": -14,
+            "feelslike": -14,
+            "humidity": 84.8,
+            "datetimeInstance": "0001-01-01T00:00:00"
+          },
+          {
+            "datetime": "04:00:00",
+            "datetimeEpoch": 1675119600,
+            "temp": -10,
+            "feelslike": -14.2,
+            "humidity": 72.53,
+            "datetimeInstance": "0001-01-01T00:00:00"
+          },
+          {
+            "datetime": "05:00:00",
+            "datetimeEpoch": 1675123200,
+            "temp": -12,
+            "feelslike": -12,
+            "humidity": 85.05,
+            "datetimeInstance": "0001-01-01T00:00:00"
+          },
+          {
+            "datetime": "06:00:00",
+            "datetimeEpoch": 1675126800,
+            "temp": -7,
+            "feelslike": -12,
+            "humidity": 73.13,
+            "datetimeInstance": "0001-01-01T00:00:00"
+          },
+          {
+            "datetime": "07:00:00",
+            "datetimeEpoch": 1675130400,
+            "temp": -7,
+            "feelslike": -12,
+            "humidity": 79.16,
+            "datetimeInstance": "0001-01-01T00:00:00"
+          },
+          {
+            "datetime": "08:00:00",
+            "datetimeEpoch": 1675134000,
+            "temp": -7,
+            "feelslike": -12,
+            "humidity": 85.63,
+            "datetimeInstance": "0001-01-01T00:00:00"
+          },
+          {
+            "datetime": "09:00:00",
+            "datetimeEpoch": 1675137600,
+            "temp": -9,
+            "feelslike": -14.4,
+            "humidity": 85.4,
+            "datetimeInstance": "0001-01-01T00:00:00"
+          },
+          {
+            "datetime": "10:00:00",
+            "datetimeEpoch": 1675141200,
+            "temp": -9,
+            "feelslike": -15.4,
+            "humidity": 85.4,
+            "datetimeInstance": "0001-01-01T00:00:00"
+          },
+          {
+            "datetime": "11:00:00",
+            "datetimeEpoch": 1675144800,
+            "temp": -8,
+            "feelslike": -8,
+            "humidity": 72.93,
+            "datetimeInstance": "0001-01-01T00:00:00"
+          },
+          {
+            "datetime": "12:00:00",
+            "datetimeEpoch": 1675148400,
+            "temp": -6,
+            "feelslike": -10.8,
+            "humidity": 73.32,
+            "datetimeInstance": "0001-01-01T00:00:00"
+          },
+          {
+            "datetime": "13:00:00",
+            "datetimeEpoch": 1675152000,
+            "temp": -4,
+            "feelslike": -8.4,
+            "humidity": 63.03,
+            "datetimeInstance": "0001-01-01T00:00:00"
+          },
+          {
+            "datetime": "14:00:00",
+            "datetimeEpoch": 1675155600,
+            "temp": -3,
+            "feelslike": -6,
+            "humidity": 63.27,
+            "datetimeInstance": "0001-01-01T00:00:00"
+          },
+          {
+            "datetime": "15:00:00",
+            "datetimeEpoch": 1675159200,
+            "temp": -2,
+            "feelslike": -6,
+            "humidity": 54.32,
+            "datetimeInstance": "0001-01-01T00:00:00"
+          },
+          {
+            "datetime": "16:00:00",
+            "datetimeEpoch": 1675162800,
+            "temp": -3,
+            "feelslike": -8,
+            "humidity": 58.49,
+            "datetimeInstance": "0001-01-01T00:00:00"
+          },
+          {
+            "datetime": "17:00:00",
+            "datetimeEpoch": 1675166400,
+            "temp": -4,
+            "feelslike": -4,
+            "humidity": 63.03,
+            "datetimeInstance": "0001-01-01T00:00:00"
+          },
+          {
+            "datetime": "18:00:00",
+            "datetimeEpoch": 1675170000,
+            "temp": -5,
+            "feelslike": -10.5,
+            "humidity": 67.96,
+            "datetimeInstance": "0001-01-01T00:00:00"
+          },
+          {
+            "datetime": "19:00:00",
+            "datetimeEpoch": 1675173600,
+            "temp": -5,
+            "feelslike": -10.5,
+            "humidity": 67.96,
+            "datetimeInstance": "0001-01-01T00:00:00"
+          },
+          {
+            "datetime": "20:00:00",
+            "datetimeEpoch": 1675177200,
+            "temp": -8.3,
+            "feelslike": -13.2,
+            "humidity": 87.53,
+            "datetimeInstance": "0001-01-01T00:00:00"
+          },
+          {
+            "datetime": "21:00:00",
+            "datetimeEpoch": 1675180800,
+            "temp": -8.8,
+            "feelslike": -13.8,
+            "humidity": 86.79,
+            "datetimeInstance": "0001-01-01T00:00:00"
+          },
+          {
+            "datetime": "22:00:00",
+            "datetimeEpoch": 1675184400,
+            "temp": -9,
+            "feelslike": -13.9,
+            "humidity": 86.08,
+            "datetimeInstance": "0001-01-01T00:00:00"
+          },
+          {
+            "datetime": "23:00:00",
+            "datetimeEpoch": 1675188000,
+            "temp": -8.7,
+            "feelslike": -13.5,
+            "humidity": 85.43,
+            "datetimeInstance": "0001-01-01T00:00:00"
+          }
+        ],
+        "datetimeInstance": "0001-01-01T00:00:00"
+      }
+    ],
+    "alerts": [],
+    "currentConditions": {
+      "datetime": "20:30:00",
+      "datetimeEpoch": 1675179000,
+      "temp": -4,
+      "feelslike": -10,
+      "humidity": 58.2
+    }
+  }
+}

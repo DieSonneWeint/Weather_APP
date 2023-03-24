@@ -1,0 +1,118 @@
+{
+  "openWeather": {
+    "weather": [
+      {
+        "id": 800,
+        "main": "Clear",
+        "description": "clear sky",
+        "icon": "01n"
+      }
+    ],
+    "_base": null,
+    "main": {
+      "temp": 4.47,
+      "feels_like": 0.67,
+      "temp_min": 4.47,
+      "temp_max": 8.05,
+      "pressure": 1013,
+      "humidity": 67,
+      "sea_level": 0,
+      "grnd_level": 0
+    },
+    "wind": {
+      "speed": 5,
+      "deg": 200,
+      "gust": 0
+    },
+    "rain": null,
+    "clouds": {
+      "all": 0
+    },
+    "id": 1508291,
+    "name": "Chelyabinsk",
+    "cod": 200
+  },
+  "weatherstack": {
+    "Request": {
+      "type": "City",
+      "query": "Челябинск, Россия",
+      "language": "en",
+      "unit": "m"
+    },
+    "Location": {
+      "name": "Челябинск",
+      "country": "Россия",
+      "region": "Chelyabinsk",
+      "lat": "55.154",
+      "lon": "61.430",
+      "timezone_id": "Asia/Yekaterinburg",
+      "localtime": "2023-03-24 19:26",
+      "localtime_epoch": 1679685960,
+      "utc_offset": "5.0"
+    },
+    "Current": {
+      "observation_time": "02:26 PM",
+      "temperature": 8,
+      "weather_code": 113,
+      "wind_speed": 19,
+      "wind_degree": 200,
+      "wind_dir": "SSW",
+      "pressure": 1013,
+      "precip": 0,
+      "humidity": 57,
+      "cloudcover": 0,
+      "feelslike": 6,
+      "uv_index": 2,
+      "visibility": 10
+    },
+    "Forecast": null
+  },
+  "weatherapi": {
+    "location": {
+      "name": "Челябинск",
+      "region": "Chelyabinsk",
+      "country": "Россия",
+      "lat": 55.15,
+      "lon": 61.43,
+      "tz_id": "Asia/Yekaterinburg",
+      "localtime_epoch": 1679667975,
+      "localtime": "2023-03-24 19:26"
+    },
+    "current": {
+      "last_updated_epoch": 1679667300,
+      "last_updated": "2023-03-24 19:15",
+      "temp_c": 8
+    }
+  },
+  "visCross": {
+    "queryCost": 1,
+    "latitude": 55.1631,
+    "longitude": 61.3888,
+    "resolvedAddress": "Челябинск, Уральский федеральный округ, Россия",
+    "address": "Челябинск",
+    "timezone": "Asia/Yekaterinburg",
+    "tzoffset": 5,
+    "description": "Similar temperatures continuing with no rain expected.",
+    "days": [
+      {
+        "datetime": "2023-03-24",
+        "datetimeEpoch": 1679598000,
+        "tempmax": 11,
+        "tempmin": 0,
+        "temp": 4.7,
+        "feelslikemax": 11,
+        "feelslikemin": -3.6,
+        "feelslike": 1.5,
+        "datetimeInstance": "0001-01-01T00:00:00"
+      }
+    ],
+    "alerts": [],
+    "currentConditions": {
+      "datetime": "19:00:00",
+      "datetimeEpoch": 1679666400,
+      "temp": 8,
+      "feelslike": 5,
+      "humidity": 57
+    }
+  }
+}
