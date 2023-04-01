@@ -77,7 +77,7 @@ namespace WpfAppWther
             FileStream file= new FileStream(FileName,FileMode.OpenOrCreate);
             model.SaveWeatherData(file);
         }
-        public double? ReturnTempOpenWeather() 
+                public double? ReturnTempOpenWeather() 
         {
             if (model.AllWeatherAP.openWeather != null)
              return  model.AllWeatherAP.openWeather.main.temp;
@@ -91,27 +91,39 @@ namespace WpfAppWther
         }
         public double? ReturnTempVissCrossWeather() 
         {
-            return model.AllWeatherAP.visCross.days[0].temp;
+            if (model.AllWeatherAP.visCross != null)
+                return model.AllWeatherAP.visCross.days[0].temp;
+            return null;
         }
         public string ReturnCityNameVissCross() 
         {
-            return model.AllWeatherAP.visCross.address;
+            if (model.AllWeatherAP.visCross != null)
+                return model.AllWeatherAP.visCross.address;
+            return "Null";
         }
         public double? ReturnTempWeatherApi()
         {
-            return model.AllWeatherAP.weatherapi.current.temp_c;
+            if (model.AllWeatherAP.weatherapi != null)
+                return model.AllWeatherAP.weatherapi.current.temp_c;
+            return null;
         }
         public string? ReturnCityNameWeatherApi() 
         {
-            return model.AllWeatherAP.weatherapi.location.name;
+            if (model.AllWeatherAP.weatherapi != null)
+                return model.AllWeatherAP.weatherapi.location.name;
+            return "Null";
         }
         public double? ReturnTempWeatherStack() 
         {
-            return model.AllWeatherAP.weatherstack.Current.temperature;
+            if (model.AllWeatherAP.weatherstack != null)
+                return model.AllWeatherAP.weatherstack.Current.temperature;
+            return null;
         }
         public string? ReturnCityNameWeatherStack() 
         {
-            return model.AllWeatherAP.weatherstack.Location.name;
+            if (model.AllWeatherAP.weatherstack != null)
+                return model.AllWeatherAP.weatherstack.Location.name;
+            return "Null";
         }
 
         public double ReturnAverageTemp() // подсчет средней температуры
